@@ -19,3 +19,27 @@
 [submodule "dep/XStyles"]
 	path = dep/XStyles
 	url = https://github.com/horsicq/XStyles
+[submodule "dep/Controls"]
+	path = dep/Controls
+	url = https://github.com/horsicq/Controls
+[submodule "dep/XFileInfo"]
+	path = dep/XFileInfo
+	url = https://github.com/horsicq/XFileInfo
+[submodule "dep/XShortcuts"]
+	path = dep/XShortcuts
+	url = https://github.com/horsicq/XShortcuts
+[submodule "dep/FormatDialogs"]
+	path = dep/FormatDialogs
+	url = https://github.com/horsicq/FormatDialogs
+[submodule "dep/XDEX"]
+	path = dep/XDEX
+	url = https://github.com/horsicq/XDEX
+[submodule "dep/XPDF"]
+	path = dep/XPDF
+	url = https://github.com/horsicq/XPDF
+[submodule "dep/XArchive"]
+	path = dep/XArchive
+	url = https://github.com/horsicq/XArchive
+[submodule "dep/XDisasmCore"]
+	path = dep/XDisasmCore
+	url = https://github.com/horsicq/XDisasmCore
