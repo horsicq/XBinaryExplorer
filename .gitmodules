@@ -1,0 +1,21 @@
+[submodule "dep/Formats"]
+	path = dep/Formats
+	url = https://github.com/horsicq/Formats
+[submodule "dep/XCapstone"]
+	path = dep/XCapstone
+	url = https://github.com/horsicq/XCapstone
+[submodule "dep/build_tools"]
+	path = dep/build_tools
+	url = https://github.com/horsicq/build_tools
+[submodule "dep/FormatWidgets"]
+	path = dep/FormatWidgets
+	url = https://github.com/horsicq/FormatWidgets
+[submodule "dep/XAboutWidget"]
+	path = dep/XAboutWidget
+	url = https://github.com/horsicq/XAboutWidget
+[submodule "dep/XOptions"]
+	path = dep/XOptions
+	url = https://github.com/horsicq/XOptions
+[submodule "dep/XStyles"]
+	path = dep/XStyles
+	url = https://github.com/horsicq/XStyles
