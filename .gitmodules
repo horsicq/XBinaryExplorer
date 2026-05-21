@@ -43,3 +43,18 @@
 [submodule "dep/XDisasmCore"]
 	path = dep/XDisasmCore
 	url = https://github.com/horsicq/XDisasmCore
+[submodule "dep/Detect-It-Easy"]
+	path = dep/Detect-It-Easy
+	url = https://github.com/horsicq/Detect-It-Easy
+[submodule "dep/die_script"]
+	path = dep/die_script
+	url = https://github.com/horsicq/die_script
+[submodule "dep/SpecAbstract"]
+	path = dep/SpecAbstract
+	url = https://github.com/horsicq/SpecAbstract
+[submodule "dep/XScanEngine"]
+	path = dep/XScanEngine
+	url = https://github.com/horsicq/XScanEngine
+[submodule "dep/XStaticUnpacker"]
+	path = dep/XStaticUnpacker
+	url = https://github.com/horsicq/XStaticUnpacker
