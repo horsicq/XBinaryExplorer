@@ -35,7 +35,7 @@ jobs:
         mkdir tmp_build
         cd tmp_build
         cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_PREFIX_PATH="/usr/lib/x86_64-linux-gnu/cmake/Qt5" ..
-        cmake --build . --config MinSizeRel --parallel 2
+        cmake --build . --config MinSizeRel --parallel
         test -x src/gui/xbinaryexplorer
         cpack -G DEB
         test -n "$(find packages -maxdepth 1 -name '*.deb' -print -quit)"
