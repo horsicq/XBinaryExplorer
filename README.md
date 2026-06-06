@@ -65,7 +65,7 @@ XBinaryExplorer/
 
 ## License
 
-MIT License - See LICENSE.txt for details
+MIT License - See [LICENSE](LICENSE) for details
 
 ## Contributing
 
