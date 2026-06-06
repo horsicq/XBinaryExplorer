@@ -1,5 +1,7 @@
 # XBinaryExplorer
 
+![](res/images/logo.png)
+
 A generic binary explorer utility with a graphical user interface built with Qt5/Qt6.
 
 ## Features
