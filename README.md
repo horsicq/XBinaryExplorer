@@ -1,7 +1,5 @@
 # XBinaryExplorer
 
-![](res/images/logo.png)
-
 A generic binary explorer utility with a graphical user interface built with Qt5/Qt6.
 
 ## Features
@@ -67,7 +65,7 @@ XBinaryExplorer/
 
 ## License
 
-MIT License - See [LICENSE](LICENSE) for details
+MIT License - See LICENSE.txt for details
 
 ## Contributing
 

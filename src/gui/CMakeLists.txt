@@ -1,5 +1,7 @@
 include(../../dep/build_tools/cmake/cpp_standart_setup.cmake)
 
+add_definitions(-DUSE_XSIMD)
+
 include(${CMAKE_CURRENT_LIST_DIR}/../../dep/FormatWidgets/XFileExplorerWidget/xfileexplorerwidget.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/../../dep/XAboutWidget/xaboutwidget.cmake)
 if(NOT DEFINED XOPTIONS_SOURCES)
@@ -64,7 +66,12 @@ set_target_properties(XBinaryExplorer PROPERTIES
 target_include_directories(XBinaryExplorer PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
 target_link_libraries(XBinaryExplorer PRIVATE
+    xsimd
     capstone
+    bzip2
+    lzma
+    zlib
+    ppmd
     Qt${XBINARYEXPLORER_QT_MAJOR}::Widgets
     Qt${XBINARYEXPLORER_QT_MAJOR}::Concurrent
     Qt${XBINARYEXPLORER_QT_MAJOR}::Network
