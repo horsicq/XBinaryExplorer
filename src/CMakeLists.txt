@@ -81,6 +81,7 @@ if(EXISTS "${XBINARYEXPLORER_TRANSLATION_HELPER}")
         "${CMAKE_CURRENT_LIST_DIR}/../translations/xbinaryexplorer_tr_TR.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/xbinaryexplorer_uk_UA.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/xbinaryexplorer_vi_VN.ts"
+        "${CMAKE_CURRENT_LIST_DIR}/../translations/xbinaryexplorer_sq_AL.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/xbinaryexplorer_zh_CN.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/xbinaryexplorer_zh_TW.ts"
     )
