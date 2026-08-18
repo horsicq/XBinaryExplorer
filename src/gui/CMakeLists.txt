@@ -72,6 +72,7 @@ target_link_libraries(XBinaryExplorer PRIVATE
     lzma
     zlib
     ppmd
+    xarchive_7zip
     Qt${XBINARYEXPLORER_QT_MAJOR}::Widgets
     Qt${XBINARYEXPLORER_QT_MAJOR}::Concurrent
     Qt${XBINARYEXPLORER_QT_MAJOR}::Network
