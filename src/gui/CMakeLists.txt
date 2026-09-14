@@ -68,10 +68,6 @@ target_include_directories(XBinaryExplorer PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(XBinaryExplorer PRIVATE
     xsimd
     capstone
-    bzip2
-    lzma
-    zlib
-    ppmd
     Qt${XBINARYEXPLORER_QT_MAJOR}::Widgets
     Qt${XBINARYEXPLORER_QT_MAJOR}::Concurrent
     Qt${XBINARYEXPLORER_QT_MAJOR}::Network
